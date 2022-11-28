@@ -1,0 +1,55 @@
+
+body{
+    margin-top: 110px;
+}
+
+
+section{
+    border: 2px dashed red;
+    min-height: 100px;
+    width: 100%;
+}
+
+.container{
+    border: 2px dashed goldenrod;
+    min-height: 500px;
+    width: 100%;
+}
+
+.container-fluid{
+    border: 2px dashed lightgreen;
+    min-height: 100px;
+    width: 10vh%;
+}
+
+[class^="col"]{
+    border: 2px dashed purple;
+    min-height: 100px;
+   
+}
+
+.row{
+    border: 2px dashed blue;
+    min-height: 100px;
+    width: 100%;
+}
+
+#logo-sony{
+    width: 130px;
+
+}
+
+
+/* Jumbo */
+
+#jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+   background-size: center;
+    height:300px;
+    width: 100%;
+}
+#jumbotron img{
+    width: 100%;
+}
+
+
