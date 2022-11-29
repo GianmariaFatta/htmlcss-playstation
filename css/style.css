@@ -23,6 +23,7 @@ section{
     border: 2px dashed lightgreen;
     min-height: 100px;
     width: 100%;
+    margin: 0 auto;
 }
 
 [class^="col"]{
@@ -35,6 +36,7 @@ section{
     border: 2px dashed blue;
     min-height: 100px;
     width: 100%;
+    margin:0 auto;
 }
 
 .button{
@@ -62,7 +64,7 @@ section{
 #main-jumbotron{
     background-image: url(../img/jumbo-bg.png);
     height:600px ;
-    padding-top: 80px;
+    padding-top: 220px;
 }
 #second-jumbotron{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
