@@ -1,3 +1,8 @@
+
+
+
+
+
 .header-fixed{
     width: 100%;
 }
@@ -10,6 +15,10 @@ section{
     border: 2px dashed red;
     min-height: 100px;
     width: 100%;
+}
+
+h2{
+    font-size: 35px;
 }
 
 .container{
@@ -28,7 +37,7 @@ section{
 
 [class^="col"]{
     border: 2px dashed purple;
-    min-height: 100px;
+   
    
 }
 
@@ -51,20 +60,21 @@ section{
     color:white
 }
 
-#logo-sony{
-    width: 130px;
-
-}
 
 /* header */
+header>[class^="col"]{
+    padding-top:0;
+}
 
-
+#logo-sony{
+    width: 130px;
+}
 /* Jumbo */
 
 #main-jumbotron{
     background-image: url(../img/jumbo-bg.png);
     height:600px ;
-    padding-top: 220px;
+    
 }
 #second-jumbotron{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -78,6 +88,13 @@ section{
     background-repeat: no-repeat;
 }
 
+#main-jumbotron .col-12{
+    padding-top:225px
+}
+
+#second-jumbotron .col-12{
+    padding-top:60px;
+}
 
 /* main */
 
