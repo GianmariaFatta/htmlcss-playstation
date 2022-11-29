@@ -19,7 +19,7 @@ section{
 .container-fluid{
     border: 2px dashed lightgreen;
     min-height: 100px;
-    width: 10vh%;
+    width: 100%;
 }
 
 [class^="col"]{
@@ -34,10 +34,22 @@ section{
     width: 100%;
 }
 
+.button{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 25%;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #logo-sony{
     width: 130px;
 
 }
+
+/* header */
 
 
 /* Jumbo */
