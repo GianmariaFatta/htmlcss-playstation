@@ -1,4 +1,6 @@
-
+.header-fixed{
+    width: 100%;
+}
 body{
     margin-top: 110px;
 }
@@ -14,6 +16,7 @@ section{
     border: 2px dashed goldenrod;
     min-height: 500px;
     width: 100%;
+    margin: 0 auto;
 }
 
 .container-fluid{
@@ -56,14 +59,21 @@ section{
 
 /* Jumbo */
 
-#jumbotron{
+#main-jumbotron{
     background-image: url(../img/jumbo-bg.png);
-   background-size: center;
-    height:300px;
-    width: 100%;
+    height:600px ;
+    padding-top: 80px;
 }
-#jumbotron img{
-    width: 100%;
+#second-jumbotron{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height:600px ;
+    padding-top: 40px;
+}
+
+.jumbotron{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -74,3 +84,9 @@ section.news{
 
 }
 
+.ps-plus{
+    background-color: #BEBCBB;
+}
+.ps-now{
+    background-color: #161C3B;
+}
