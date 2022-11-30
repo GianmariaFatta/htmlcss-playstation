@@ -13,7 +13,7 @@ body{
 
 section{
     border: 2px dashed red;
-    min-height: 100px;
+    /* min-height: 100px; */
     width: 100%;
 }
 
@@ -94,6 +94,20 @@ header>[class^="col"]{
 
 #second-jumbotron .col-12{
     padding-top:60px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size:17px
+}
+
+.fa-solid.fa-chevron-down{
+    color:#B9B9B9
+}
+
+.col-6>ul{
+    color: red
 }
 
 /* main */

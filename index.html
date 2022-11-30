@@ -13,20 +13,50 @@
 <body>
 <!-- header -->
 <header>
-    
         <div class="header-fixed position-fixed top-0 right-0 ">
             <div class=" header-top bg-black w-100  text-end p-2">
             <img id="logo-sony"  src="img/sony_logo.svg" alt="">
         </div>
-        <div class=" header-bottom bg-white d-flex w-100 p-0 align-items-center justify-content-between p-2">
+        <div class=" header-bottom bg-white d-flex w-100 p-0 align-items-center justify-content-between p-2 d-lg-none" >
             <img src="img/play_logo.svg" alt="" class="d-lg-none">
             <span><i class="p-4 fa-solid fa-bars fa-xl d-lg-none"></i></span>
-            <div class="row d-none d-lg-flex g-4 justify-content-center align-items-center">
-                <div class="col-7 "></div>
-                <div class="col-5 "></div>
+        </div>
+        <div class=" d-none header-bottom bg-white w-100 p-0 align-items-center justify-content-between  d-lg-flex" >
+            <div class="row justify-content-between align-items-center">
+                <div class="col-1 justify-content-center">
+                        <a href=""><img src="img/play_logo.svg" alt="" class="img-fluid"></a>
+                </div>
                 
+                <div class="col-7  ">
+                    <ul class="list-unstyled h4 d-flex justify-content-between   ">
+                        <li><a href="">Giochi <i class="fa-solid fa-chevron-down"></i></a></li>
+                        <li><a href="">Hardware <i class="fa-solid fa-chevron-down"></i></a></li>
+                        <li><a href="">Servizi <i class="fa-solid fa-chevron-down"></i></a></li>
+                        <li><a href="">Novità <i class="fa-solid fa-chevron-down"></i></a></li>
+                        <li><a href="">Fai acquisti <i class="fa-solid fa-chevron-down"></i></a></li>
+                        <li><a href="">Supporto <i class="fa-solid fa-chevron-down"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <ul class="list-unstyled h4 d-flex justify-content-end  ">
+                        <li><a href="">My PlayStation<i class="fa-solid fa-chevron-down"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="col-1 list-unstyled h4 text-center mt-2">
+                <li><a class="btn btn-primary" href="">Accedi</a></li>
+                </ul>
+                </div>
+          
+
+            <div class="col-1 h2 mt-2 text-center">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
             </div>
             </div>
+            
+        </div>
+
         </div>
     
     
@@ -64,7 +94,7 @@
     <section id="presentation">
         <div class="container-fluid">
         <div class="row">
-        <div class="p-2">
+        <div class="col-12 p-2">
             <H6 class="text-primary text-center" > PLAY HAS NO LIMITS</H6>
             <h2 class="text-center ">Ecco la PlayStation 5</h2>
             <p class="text-center" >Tuffati in nuove possibilità di gioco completamente inaspettate</p>
@@ -111,7 +141,6 @@
         </div>
     </section>
     <!-- evidence -->
-    <section class="evidence"></section>
     <section class="news text-white">
         <div class="container-fluid">
             <div class="row">
@@ -162,7 +191,7 @@
                     <p class="p-1">Tony Hawk's Pro Skater 1 + 2</p>
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2 g-4">
-                    <img class="img-fluid rounded"  src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                    <img class="img-fluid rounded "  src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
                     <p class="p-1">Crash Bandicot 4: It's About Time</p>
                 </div>
             </div>
@@ -196,9 +225,9 @@
                     <a href="" class="btn btn-primary">Scopri di più</a>
                 </div>
             </section>
-            <section class="banner">
-                <div class="container-fluid p-0">
-                <div class="row ps-plus mt-5 text-start  ">
+            <section class="banner ">
+                <div class="container-fluid p-0 ">
+                <div class="row ps-plus mt-5 text-start  align-items-center ">
                 <div class="col-12 col-md-6 p-lg-5 mt-lg-5 ">
                     <img src="img/ps-plus-logo.png" class="w-50 d-inline mt-4" alt="">
                     <img src="img/" alt="">
@@ -221,18 +250,18 @@
                     <h2 class="text-center p-4">Nuovi sconti sul PlayStation Store</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat nihil quod nulla, ipsum possimus dolores quos aliquid ducimus! Laudantium numquam libero eos quod totam quia quasi, enim consectetur dignissimos quaerat!</p>
                 </div>
-                <div class="col-12 col-md-4 pt-2">
+                <div class="col-12 col-md-4 pt-2 p-md-5">
                     <img src="img/playstation-store-games-under-20-spotlight.jpg" alt="" class="w-100">
                 </div>
-                <div class="col-12 col-md-4 pt-2">
+                <div class="col-12 col-md-4 pt-2 p-md-5">
                     <img src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="" class="w-100">
                 </div>
-                <div class="col-12 col-md-4 pt-2">
+                <div class="col-12 col-md-4 pt-2 p-md-5">
                     <img src="img/playstation-store-free-to-play-spotlight.png" alt="" class="w-100">
                 </div>
                 </section>
-                <section class="banner-bottom"></section>
-                <div class="row ps-now mt-5 text-start ">
+                <section class="banner-bottom">
+                <div class="row ps-now  text-start align-items-center  ">
                     <div class="col-12 col-md-6  ">
                     <img src="img/ps-now-logo-two-column.png" class="w-50 d-inline mt-4 mb-2" alt="">
                     <img src="img/" alt="">
@@ -243,18 +272,20 @@
                     <img src="img/ps-now-april-featured-image-block.png" alt="" class="img-fluid">
                 </div>
             </div>
-            </div>
+        </div>
+    
         </div>
     </section>
     <!-- social -->
     <section class="social">
-        <div class="container-fluid pt-5 container-md">
-        <div class="row mb-5">
-                <h2 class="text-center text-black">Seguici sui social media</h2>
-                <div class="col-6 col-sm-3  g-4 "><img src="img/twitter.jpg" alt="" class="img-fluid"></div>
-                <div class="col-6 col-sm-3  g-4 "><img src="img/facebook.jpg" alt="" class="img-fluid"></div>
-                <div class="col-6 col-sm-3  g-4 "><img src="img/instagram.jpg" alt="" class="img-fluid"></div>
-                <div class="col-6 col-sm-3  g-4 "><img src="img/youtube.png " alt="" class="img-fluid"></div>
+        <div class="container-fluid pt-5 ">
+        <div class="row mb-5 justify-content-center">
+                <div class="col-12">
+                <h2 class="text-center text-black">Seguici sui social media</h2></div>
+                <div class="col-6 col-sm-3 col-lg-2  g-4 p-md-5 "><img src="img/twitter.jpg" alt="" class="img-fluid  "></div>
+                <div class="col-6 col-sm-3 col-lg-2 g-4 p-md-5 "><img src="img/facebook.jpg" alt="" class="img-fluid"></div>
+                <div class="col-6 col-sm-3 col-lg-2 g-4 p-md-5 "><img src="img/instagram.jpg" alt="" class="img-fluid"></div>
+                <div class="col-6 col-sm-3 col-lg-2 g-4 p-md-5 "><img src="img/youtube.png " alt="" class="img-fluid"></div>
             </div>
         </div>
     </section>
